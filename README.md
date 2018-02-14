@@ -6,7 +6,7 @@ First you need a Bot-Id. To receive this id, just start a conversation with [Bot
 
 After that the Bot must know in which Chat he should post the notification.
 In case you want to send a Notification directly to you, simple send a message to your Bot. After that call the
-following URL: ```https://api.telegram.org/bot{BOT-ID}/getUpdates``` (replace ```{BOT-ID}``` with your Bot-Id.
+following URL: ```https://api.telegram.org/bot{BOT-ID}/getUpdates``` (replace ```{BOT-ID}``` with your Bot-Id).
 In the response you will find the chat id.
 
 
