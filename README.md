@@ -15,5 +15,5 @@ You can now execute the script like this:
 ./sendMessage.sh "My Message" "Bot-Id" "Chat-Id"
 ```
 
-OR you can put the Bot and Chat-ID into a enviorment variables named:
+**OR** you can put the Bot and Chat-ID into a enviorment variables named:
 ```TELEGRAM_CHAT_ID``` and ```TELEGRAM_BOTNAME```
