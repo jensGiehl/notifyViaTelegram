@@ -1,8 +1,8 @@
 # Send Notifications to Telegram
-A simple bash script to send a (Telegram)[https://telegram.org/] message using curl.
+A simple bash script to send a [Telegram](https://telegram.org/) message using curl.
 
 ## How to setup?
-First you need a Bot-Id. To receive this id, just start a conversation with (BotFather)[https://t.me/botfather].
+First you need a Bot-Id. To receive this id, just start a conversation with [BotFather](https://t.me/botfather).
 
 After that the Bot must know in which Chat he should post the notification.
 In case you want to send a Notification directly to you, simple send a message to your Bot. After that call the
