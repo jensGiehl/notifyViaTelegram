@@ -14,8 +14,11 @@ text="$(echo "$1" | sed 's/"//g')"
 chatId=${2:-$TELEGRAM_CHAT_ID}
 botName=${3:-$TELEGRAM_BOTNAME}
 
-curl -s --output /dev/null "https://api.telegram.org/bot$botName/sendMessage" -F "chat_id=$chatId" -F "text=${text}"
+#curl -s --output /dev/null "https://api.telegram.org/bot$botName/sendMessage" -F "chat_id=$chatId" -F "text=${text}"
 # -F "parse_mode=html"
+
+file="/home/pi/screenshots/2018-02-16_1700.png"
+curl -s  "https://api.telegram.org/bot$botName/sendPhoto" -F "chat_id=$chatId" -F "photo=@$file" -F "caption=Hallo Welt"
 
 : '
 curl --silent --output /dev/null \
