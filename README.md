@@ -1,3 +1,6 @@
+:warning: Deprecated, use: https://github.com/jensGiehl/telegram-bot-bash :warning:
+
+
 # Send Notifications to Telegram
 A simple bash script to send a [Telegram](https://telegram.org/) message using curl.
 
